@@ -29,11 +29,11 @@ class Cat(Animal):
         return "Meow!"
 
     def behaviour(self):
-        return f"{self.name} is purring."
+        return f"{self.name} is purring and whining."
 
 
-dog = Dog("Bruno", 3, "Golden Retriever")
-cat = Cat("Chippy", 2, "ginger")
+dog = Dog("Max", 3, "Golden Retriever")
+cat = Cat("Blue", 2, "ginger")
 
 print(f"{dog.name} is a {dog.age}-year-old {dog.breed}.")
 print(f"{cat.name} is a {cat.age}-year-old {cat.color} cat.")
