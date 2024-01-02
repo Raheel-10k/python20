@@ -31,18 +31,16 @@ class Cat(Animal):
     def behaviour(self):
         return f"{self.name} is purring."
 
-def main():
-    dog = Dog("Bruno", 3, "Golden Retriever")
-    cat = Cat("Chippy", 2, "ginger")
 
-    print(f"{dog.name} is a {dog.age}-year-old {dog.breed}.")
-    print(f"{cat.name} is a {cat.age}-year-old {cat.color} cat.")
+dog = Dog("Bruno", 3, "Golden Retriever")
+cat = Cat("Chippy", 2, "ginger")
 
-    print(f"{dog.name} goes {dog.make_sound()}")
-    print(f"{cat.name} goes {cat.make_sound()}")
+print(f"{dog.name} is a {dog.age}-year-old {dog.breed}.")
+print(f"{cat.name} is a {cat.age}-year-old {cat.color} cat.")
 
-    print(dog.behaviour())  
-    print(cat.behaviour())      
+print(f"{dog.name} goes {dog.make_sound()}")
+print(f"{cat.name} goes {cat.make_sound()}")
 
-if __name__=="__main__":
-    main()
+print(dog.behaviour())  
+print(cat.behaviour())      
+
