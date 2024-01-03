@@ -128,7 +128,7 @@ while True:
                 break
             elif decision=='n':
                 print("Thank you for playing!")
-                exit()  #This function is used to end a code
+                exit()  #This function is used to end a code"˝
             else:
                 print("Invalid input")
 
