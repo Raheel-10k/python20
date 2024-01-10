@@ -1,3 +1,4 @@
+#Create a Python class called “Car” with attributes like make, model, and year. Then, create an object of the “Car” class and print its details.
 class Car:
     def __init__(self, make, model, year):
         self.make = make

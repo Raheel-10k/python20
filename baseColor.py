@@ -1,5 +1,5 @@
+#Define a class attribute “color” with a default value white. i.e., Every Vehicle should be white.
 class Vehicle:
-    #Setting default value to "white"
     color = "White"
 
     def __init__(self, make):
